@@ -252,7 +252,7 @@ cd <BoT-SORT_dir>
 python3 fast_reid/tools/train_net.py --config-file fast_reid/configs/AICUP/bagtricks_R50-ibnjun.yml MODEL.DEVICE "cuda:0"
 ```
 
-The training results are stored by default in ```logs/AICUP/bagtricks_R50-ibn```. The storage location and model hyperparameters can be modified in ```fast_reid/configs/AICUP/bagtricks_R50-ibn.yml```.
+The training results are stored by default in ```logs/AICUP/bagtricks_R50-ibn```. The storage location and model hyperparameters can be modified in ```fast_reid/configs/AICUP/bagtricks_R50-ibnjun.yml```.
 
 You can refer to `fast_reid/fastreid/config/defaults.py` to find out which hyperparameters can be modified.
 
@@ -278,7 +278,7 @@ AssertionError: Error: all query identities do not appear in gallery
 
 - The dataset path is configured in `yolov7/data/AICUP.yaml`.
 - The model architecture can be configured in `yolov7/cfg/training/yolov7-AICUP.yaml`.
-- Training hyperparameters are configured in `yolov7/data/hyp.scratch.custom.yaml` (default is `yolov7/data/hyp.scratch.p5.yaml`).
+- Training hyperparameters are configured in `yolov7/data/hyp.scratch.custom1.yaml` (default is `yolov7/data/hyp.scratch.p5.yaml`).
 
 > [!CAUTION]
 > **The Hyperparameter teams cannot be adjusted for the YOLOv7 model architecture, only the Anchor box can be adjusted in `yolov7/cfg/training/yolov7-AICUP.yaml`.**
@@ -290,10 +290,10 @@ Single GPU finetuning for AICUP dataset
 ``` shell
 cd <BoT-SORT_dir>
 # finetune p5 models
-python yolov7/train.py --device 0 --batch-size 16 --epochs 50 --data yolov7/data/AICUP.yaml --img 1280 1280 --cfg yolov7/cfg/training/yolov7-AICUP.yaml --weights 'pretrained/yolov7-e6e.pt' --name yolov7-AICUP --hyp data/hyp.scratch.custom.yaml
+python yolov7/train.py --device 0 --batch-size 16 --epochs 50 --data yolov7/data/AICUP.yaml --img 1280 1280 --cfg yolov7/cfg/training/yolov7-AICUP.yaml --weights 'pretrained/yolov7-e6e.pt' --name yolov7-AICUP --hyp data/hyp.scratch.custom1.yaml
 
 # finetune p6 models
-python yolov7/train_aux.py --device 0 --batch-size 16 --epochs 50 --data yolov7/data/AICUP.yaml --img 1280 1280 --cfg yolov7/cfg/training/yolov7-w6-AICUP.yaml --weights 'pretrained/yolov7-e6e.pt' --name yolov7-w6-AICUP --hyp data/hyp.scratch.custom.yaml
+python yolov7/train_aux.py --device 0 --batch-size 16 --epochs 50 --data yolov7/data/AICUP.yaml --img 1280 1280 --cfg yolov7/cfg/training/yolov7-w6-AICUP.yaml --weights 'pretrained/yolov7-e6e.pt' --name yolov7-w6-AICUP --hyp data/hyp.scratch.custo1m.yaml
 ```
 
 For multiple GPU training and other details, please refer to [YOLOv7-Training](https://github.com/WongKinYiu/yolov7?tab=readme-ov-file#training).
