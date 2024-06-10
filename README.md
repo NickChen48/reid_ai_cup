@@ -69,7 +69,9 @@ pip install cython_bbox
 pip install faiss-cpu
 pip install faiss-gpu
 ```
-
+## Weight
+-Donw load  Yolov7:[yolov7_weight](https://drive.google.com/file/d/1YjpyEa2RqYBUZBY-uCOP69N-QpVjbhWg/view?usp=sharing)
+-Donw load  Reid:[Reid_weight](https://drive.google.com/file/d/1DdgdDEAl_s_XLxpRF5-QgJqj0JpBwFq9/view?usp=sharing)
 ## Data Preparation
 
 Download the AI_CUP dataset, the original dataset structure is:
