@@ -384,7 +384,7 @@ In addition, python-based motion estimation techniques are available and can be 
 ```
 比賽資訊:[https://tbrain.trendmicro.com.tw/Competitions/Details/33](https://tbrain.trendmicro.com.tw/Competitions/Details/33)
 
-參考資料來源:-[https://github.com/ricky-696/AICUP_Baseline_BoT-SORT](https://github.com/ricky-696/AICUP_Baseline_BoT-SORT)
+參考資料來源:[https://github.com/ricky-696/AICUP_Baseline_BoT-SORT](https://github.com/ricky-696/AICUP_Baseline_BoT-SORT)
 
 ## Acknowledgement
 
