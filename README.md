@@ -380,9 +380,9 @@ In addition, python-based motion estimation techniques are available and can be 
   journal={arXiv preprint arXiv:2206.14651},
   year={2022}
 }
-比賽資訊:[https://tbrain.trendmicro.com.tw/Competitions/Details/33](https://tbrain.trendmicro.com.tw/Competitions/Details/33)
+比賽資訊:-[https://tbrain.trendmicro.com.tw/Competitions/Details/33](https://tbrain.trendmicro.com.tw/Competitions/Details/33)
 
-參考資料來源:[https://github.com/ricky-696/AICUP_Baseline_BoT-SORT](https://github.com/ricky-696/AICUP_Baseline_BoT-SORT)
+參考資料來源:-[https://github.com/ricky-696/AICUP_Baseline_BoT-SORT](https://github.com/ricky-696/AICUP_Baseline_BoT-SORT)
 ```
 
 
@@ -396,7 +396,7 @@ A large part of the codes, ideas and results are borrowed from
 - [FastReID](https://github.com/JDAI-CV/fast-reid)
 - [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
 - [YOLOv7](https://github.com/wongkinyiu/yolov7)
-- [T-brain](https://tbrain.trendmicro.com.tw/Competitions/Details/33)
+- [T-Brain](https://tbrain.trendmicro.com.tw/Competitions/Details/33)
   
 Thanks for their excellent work!
 
