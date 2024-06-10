@@ -380,12 +380,14 @@ In addition, python-based motion estimation techniques are available and can be 
   journal={arXiv preprint arXiv:2206.14651},
   year={2022}
 }
+- [參考資料來源](https://github.com/jkd5430/AICUP/tree/main?tab=readme-ov-file).
 ```
 
 
 ## Acknowledgement
 
 A large part of the codes, ideas and results are borrowed from
+- [T-brain](https://github.com/jkd5430/AICUP/tree/main?tab=readme-ov-file)
 - [BoT-SORT](https://github.com/NirAharon/BoT-SORT)
 - [ByteTrack](https://github.com/ifzhang/ByteTrack)
 - [StrongSORT](https://github.com/dyhBUPT/StrongSORT)
