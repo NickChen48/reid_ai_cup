@@ -69,7 +69,7 @@ pip install cython_bbox
 pip install faiss-cpu
 pip install faiss-gpu
 ```
-## Weight
+## Donwload Weight
 -Donw load  Yolov7:[yolov7_weight](https://drive.google.com/file/d/1YjpyEa2RqYBUZBY-uCOP69N-QpVjbhWg/view?usp=sharing)
 -Donw load  Reid:[Reid_weight](https://drive.google.com/file/d/1DdgdDEAl_s_XLxpRF5-QgJqj0JpBwFq9/view?usp=sharing)
 ## Data Preparation
@@ -249,7 +249,7 @@ After generating the AICUP ReID dataset as described in the 'Data Preparation' s
 cd <BoT-SORT_dir>
 
 # For training AICUP 
-python3 fast_reid/tools/train_net.py --config-file fast_reid/configs/AICUP/bagtricks_R50-ibn.yml MODEL.DEVICE "cuda:0"
+python3 fast_reid/tools/train_net.py --config-file fast_reid/configs/AICUP/bagtricks_R50-ibnjun.yml MODEL.DEVICE "cuda:0"
 ```
 
 The training results are stored by default in ```logs/AICUP/bagtricks_R50-ibn```. The storage location and model hyperparameters can be modified in ```fast_reid/configs/AICUP/bagtricks_R50-ibn.yml```.
