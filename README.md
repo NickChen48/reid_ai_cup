@@ -380,8 +380,8 @@ In addition, python-based motion estimation techniques are available and can be 
   journal={arXiv preprint arXiv:2206.14651},
   year={2022}
 }
--比賽資訊:[https://tbrain.trendmicro.com.tw/Competitions/Details/33]
--參考資料來源: [https://github.com/jkd5430/AICUP/tree/main?tab=readme-ov-file]
+-比賽資訊:[https://tbrain.trendmicro.com.tw/Competitions/Details/33](https://tbrain.trendmicro.com.tw/Competitions/Details/33)
+-參考資料來源:[https://github.com/jkd5430/AICUP/tree/main?tab=readme-ov-file](https://github.com/jkd5430/AICUP/tree/main?tab=readme-ov-file)
 ```
 
 
