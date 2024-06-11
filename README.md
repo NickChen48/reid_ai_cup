@@ -70,7 +70,10 @@ pip install faiss-cpu
 pip install faiss-gpu
 ```
 ## Google Colab Link
-Colab :[link](https://drive.google.com/file/d/1YjpyEa2RqYBUZBY-uCOP69N-QpVjbhWg/view?usp=sharing)
+Colab :[link](https://colab.research.google.com/drive/1t9FUvqhJjesYTo2TMkHx99WplXx4S4BX?usp=sharing)
+
+## Google Colab data
+Colab data :[data_link](https://drive.google.com/drive/folders/1nJ1C0BW3Mq2T8eHsNf79TumJuDRjbSDk?usp=sharing)
 
 ## Donwload Weight
 Donw load  Yolo:[yolo_weight](https://drive.google.com/file/d/1YjpyEa2RqYBUZBY-uCOP69N-QpVjbhWg/view?usp=sharing)
